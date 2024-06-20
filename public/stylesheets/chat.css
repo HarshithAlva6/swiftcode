@@ -1,0 +1,36 @@
+html,
+body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+#message-pane {
+    background-color: #0083FF;
+    background-image: url("/assets/images/wav.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#form-card {
+    margin: 0px;
+}
+
+.material-icons {
+    font-size: 40px !important;
+}
+
+.message-card {
+    max-width: 70%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.message-time {
+    font-size: 14px;
+    color: #FFFFFF;
+    float: right;
+    margin-top: 6px;
+}
